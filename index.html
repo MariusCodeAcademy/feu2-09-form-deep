@@ -19,15 +19,30 @@
           <input type="checkbox" id="salygos" />
           <label for="salygos">Terms and conditions</label>
         </div>
-        <fieldset>
+        <fieldset class="mb-20">
           <legend>Fav color</legend>
-          <input type="radio" id="red" name="favColor" />
+          <input type="radio" id="red" value="red" name="favColor" />
           <label for="red">Red</label>
-          <input type="radio" id="green" name="favColor" />
+          <input type="radio" id="green" value="green" name="favColor" />
           <label for="green">Green</label>
-          <input type="radio" id="blue" name="favColor" />
+          <input type="radio" id="blue" value="blue" name="favColor" />
           <label for="blue">Blue</label>
         </fieldset>
+
+        <label for="bDay">Your b-day</label>
+        <input class="textInput" id="bDay" type="date" />
+
+        <input
+          class="textInput"
+          min="0"
+          max="10"
+          type="number"
+          step="0.1"
+          placeholder="Favorite number"
+        />
+
+        <!-- dropdown/select leisti pasirinkti jusu miesta, vilnius, kaunas, klaipeda, siauliai -->
+
         <textarea class="textInput" placeholder="Your message"></textarea>
         <button class="submitBtn" type="submit">
           <i class="fa fa-paper-plane-o" aria-hidden="true"></i> send
