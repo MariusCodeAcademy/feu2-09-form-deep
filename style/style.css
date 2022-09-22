@@ -3,7 +3,8 @@
 
 .form {
   max-width: 300px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
 .form ::placeholder {
@@ -42,6 +43,7 @@ textarea.textInput {
   text-transform: uppercase;
   font-weight: bold;
   transition: padding 0.3s ease-in-out, background-color 1s;
+  align-self: center;
 }
 .submitBtn:hover {
   padding: 15px 45px;
