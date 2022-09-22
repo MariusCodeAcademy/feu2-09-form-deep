@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS project</title>
+    <link rel="stylesheet" href="./style/form1.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Shipping address</h1>
+      <form class="gridForm">
+        <div class="fullRow">
+          <select class="textInput" name="" id="">
+            <option value="lt">Lithuania</option>
+            <option value="est">Estonia</option>
+          </select>
+          <small class="underSelect"
+            >Dont see your country select<strong> Rest of the world</strong>
+          </small>
+        </div>
+        <input class="textInput" type="text" placeholder="First name" />
+        <input class="textInput" type="text" placeholder="Last name" />
+        <input class="textInput fullRow" type="text" placeholder="Address line 1" />
+        <input class="textInput fullRow" type="text" placeholder="Address line 2" />
+        <input class="textInput" type="text" placeholder="City" />
+        <input
+          class="textInput"
+          type="text"
+          placeholder="Postal code"
+          minlength="5"
+          maxlength="5"
+        />
+      </form>
+    </div>
+  </body>
+</html>
