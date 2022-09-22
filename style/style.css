@@ -49,3 +49,7 @@ textarea.textInput {
   padding: 15px 45px;
   background-color: #5655b9;
 }
+
+select.textInput {
+  color: gray;
+}
