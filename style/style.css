@@ -19,6 +19,12 @@
   font-size: 14px;
   font-weight: bold;
   border-radius: 25px;
+  transition: width 0.2s ease-in;
+}
+
+.textInput:focus-visible {
+  outline: none;
+  width: 110%;
 }
 
 textarea.textInput {
@@ -35,4 +41,9 @@ textarea.textInput {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  transition: padding 0.3s ease-in-out, background-color 1s;
+}
+.submitBtn:hover {
+  padding: 15px 45px;
+  background-color: #5655b9;
 }
