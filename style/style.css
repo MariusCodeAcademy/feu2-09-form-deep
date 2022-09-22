@@ -1,7 +1,9 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 @import 'reset.css';
 
 .form {
   max-width: 300px;
+  text-align: center;
 }
 
 .form ::placeholder {
@@ -22,4 +24,15 @@
 textarea.textInput {
   min-height: 100px;
   resize: vertical;
+}
+
+.submitBtn {
+  border: none;
+  line-height: 1.1;
+  padding: 15px 30px;
+  border-radius: 25px;
+  background-color: #827ffe;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
 }
